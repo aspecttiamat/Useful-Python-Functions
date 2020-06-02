@@ -26,8 +26,8 @@ def recur_change(amt, x):
     else:
         if amt - cur[x] >= 0:
             amt -= cur[x]
-        elif amt - cur[x] < 0:
-            r += 1
             chg.append(cur[x])
+        elif amt - cur[x] < 0:
+            r += 1            
 
         return recur_change(amt, x+r)
