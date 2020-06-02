@@ -1,4 +1,4 @@
-# This function was made to calculate change due, and return the greedy amount of bills needed.
+# This function was made to return the greedy amount of bills needed.
 
 def change(amt):
     cur = [100, 50, 20, 10, 5, 1, 0.25, 0.1, 0.05, 0.01]
